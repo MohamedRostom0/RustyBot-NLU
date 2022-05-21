@@ -1,0 +1,85 @@
+version: "3.1"
+
+stories:
+
+- story: GUC clothing police
+  steps:
+  - intent: guc_regulations_clothing
+  - action: utter_clothing
+
+
+- story: GUC attendance policy
+  steps:
+  - intent: guc_regulations_attendance
+  - action: utter_attendance
+
+
+- story: GUC General regulations
+  steps:
+  - intent: guc_regulations_general
+  - action: utter_general_regulations
+
+
+- story: GUC Berlin
+  steps:
+  - intent: guc_regulations_berlin
+  - action: utter_berlin_info
+
+
+- story: Exams study guide
+  steps:
+  - intent: study_guide_exams
+  - action: utter_study_for_exams
+
+
+- story: textbook study guide
+  steps:
+  - intent: study_guide_textbooks
+  - action: utter_study_from_textbooks
+
+
+- story: Studying in general
+  steps:
+  - intent: study_guide_general
+  - action: utter_study_general
+
+
+- story: Advising info
+  steps:
+  - intent: advising_general_info
+  - action: utter_advising
+
+
+- story: Probation tips to get out
+  steps:
+  - intent: probation_tips_to_getout
+  - action: utter_probation_tips
+
+
+- story: Probation
+  steps:
+  - intent: probation
+  - action: utter_probation
+
+
+- story: Summer attendance
+  steps:
+  - intent: summer_attendance
+  - action: utter_summer_attendance
+
+
+- story: Summer courses
+  steps:
+  - intent: summer_courses
+  - action: utter_summer_courses
+
+
+- story: Summer grading
+  steps:
+  - intent: summer_grading
+  - action: utter_summer_grading
+
+- story: Summer general
+  steps:
+  - intent: summer_general
+  - action: utter_summer

@@ -1,0 +1,103 @@
+version: "3.1"
+
+nlu:
+- intent: guc_regulations_clothing
+  examples: |
+    - Is there a clothing policy?
+    - What clothes am I not allowed to wear ?
+    - Can I wear anything I want?
+    - What clothes should I wear?
+
+
+- intent: guc_regulations_general
+  examples: |
+    - What are the general guc regulations ?
+    - What is the guc policy?
+    - What are the guc policies?
+    - What are the rules I should follow?
+
+
+- intent: guc_regulations_attendance
+  examples: |
+    - How many absences can I take?
+    - What is the number of absences allowed?
+    - How many tutorials can I miss?
+    - What is the guc attendance policy?
+    - Is attendance mandatory?
+
+
+- intent: guc_regulations_berlin
+  examples: |
+    - How to apply to study in Berlin?
+    - What is the minimum gpa to study abroad in Berlin?
+    - Where can I apply to GUC Berlin?
+    - Minimum number of students in Berlin?
+
+- intent: study_guide_exams
+  examples: |
+    - How to study for midterms?
+    - How to study for finals?
+    - Midterm study guide
+    - Finals study guide
+    - How to study for exams?
+    - Prepare for exam
+
+- intent: study_guide_textbooks
+  examples: |
+    - How to study from the textbook?
+    - Is textbook important to study from?
+    - Is it important to syudy using textbook?
+
+
+- intent: study_guide_general
+  examples: |
+    - How to study?
+    - Tips to study
+    - General study tips
+    - I need help to study
+    - How to study for quizzes?
+
+- intent: advising_general_info
+  examples: |
+    - What is advising?
+    - Who are advising students?
+    - How students end up being in advising?
+
+- intent: probation_tips_to_getout
+  examples: |
+    - How to get out of probation?
+    - Help me get out of probation
+    - I need assistance getting out of probation
+    - Any tips for probation
+
+- intent: probation
+  examples: |
+    - What is probation?
+
+- intent: summer_attendance
+  examples: |
+    - What is the attendance policy in summer?
+    - How many absences can I have in summer?
+    - Summer attendance policy
+    - Can I skip tutorials in summer?
+    - Do lectures have attendance in summer?
+
+- intent: summer_courses
+  examples: |
+    - What courses are available in summer?
+    - How to register for a summer course?
+    - Summer course admission
+    - Who can take summer courses?
+
+- intent: summer_grading
+  examples: |
+    - How are summer courses grade calculated?
+    - Summer grading schema
+    - Summer grades criteria
+
+- intent: summer_general
+  examples: |
+    - How many rounds are in summer?
+    - How summer semster works?
+    - Summer information
+    - How summer semester works?

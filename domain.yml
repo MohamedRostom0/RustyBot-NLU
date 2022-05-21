@@ -1,0 +1,84 @@
+version: "3.1"
+
+intents:
+  - guc_regulations_clothing
+  - guc_regulations_general
+  - guc_regulations_attendance
+  - guc_regulations_berlin
+  - study_guide_exams
+  - study_guide_textbooks
+  - study_guide_general
+  - advising_general_info
+  - probation_tips_to_getout
+  - probation
+  - summer_attendance
+  - summer_courses
+  - summer_grading
+  - summer_general
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_clothing:
+    - text: "Guc clothing rules"
+
+  utter_attendance:
+    - text: "GUC attendance policy(Winter and spring)"
+
+  utter_general_regulations:
+    - text: "GUC general regulations"
+
+  utter_berlin_info:
+    - text: "GUC Berlin info"
+  
+  utter_study_for_exams:
+    - text: "Exams study guide"
+  
+  utter_study_from_textbooks:
+    - text: "Study from textbook tip"
+
+  utter_study_general:
+    - text: "General study tips"
+
+  utter_advising:
+    - text: "Advising general info"
+
+  utter_probation_tips:
+    - text: "Tips to get out of probation"
+
+  utter_probation:
+    - text: "What is probation ..."
+
+  utter_summer_attendance:
+    - text: "Summer attendance policy"
+
+  utter_summer_courses:
+    - text: "Summer corses rules and guidlines and how to apply"
+
+  utter_summer_grading:
+    - text: "How summer courses are graded..."
+
+  utter_summer:
+    - text: "General summer info"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
