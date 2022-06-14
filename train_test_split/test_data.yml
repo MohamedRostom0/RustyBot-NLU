@@ -1,0 +1,59 @@
+version: "3.1"
+nlu:
+- intent: probation
+  examples: |
+    - What is probation?
+- intent: side_pjojects_importance
+  examples: |
+    - What projects I can do on the side?
+- intent: advising_general_info
+  examples: |
+    - What is advising?
+- intent: summer_grading
+  examples: |
+    - Summer grading schema
+- intent: cv_preparation
+  examples: |
+    - What to add to my cv?
+- intent: plagirism_policy
+  examples: |
+    - What is the guc plagirism policy?
+- intent: internships_obligatory_or_not
+  examples: |
+    - Do all students need to do internships?
+- intent: guc_regulations_berlin
+  examples: |
+    - What is the minimum gpa to study abroad in Berlin?
+- intent: probation_tips_to_getout
+  examples: |
+    - Help me get out of probation
+- intent: summer_courses
+  examples: |
+    - Who can take summer courses?
+- intent: summer_general
+  examples: |
+    - Summer information
+- intent: guc_regulations_attendance
+  examples: |
+    - What is the number of absences allowed?
+- intent: study_guide_general
+  examples: |
+    - I need help to study
+- intent: summer_attendance
+  examples: |
+    - Can I skip tutorials in summer?
+- intent: finding_internships
+  examples: |
+    - How to find internship oppurtunities?
+- intent: study_guide_exams
+  examples: |
+    - Prepare for exam
+- intent: internship_submission
+  examples: |
+    - What to do after my internship is done?
+- intent: internships_duration_required
+  examples: |
+    - What is the internships duration required for Applied Arts students?
+- intent: grades_schema
+  examples: |
+    - What is the gpa equivilant for B?

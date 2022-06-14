@@ -1,0 +1,113 @@
+version: "3.1"
+nlu:
+- intent: side_pjojects_importance
+  examples: |
+    - Are side projects important?
+    - Do I need to do extra projects?
+- intent: advising_general_info
+  examples: |
+    - How students end up being in advising?
+    - Who are advising students?
+- intent: summer_grading
+  examples: |
+    - Summer grades criteria
+    - How are summer courses grade calculated?
+- intent: cv_preparation
+  examples: |
+    - I need assistance making my cv?
+    - How to prepare my CV?
+    - What is a good format for a cv?
+- intent: plagirism_policy
+  examples: |
+    - What is plagirism?
+    - What is considered plagirism?
+    - What happens to me if I got caught doing plagirism?
+- intent: internships_obligatory_or_not
+  examples: |
+    - Can I skip doing internships?
+    - Are internships obligatory?
+    - Do I have to do internships?
+- intent: guc_regulations_berlin
+  examples: |
+    - Where can I apply to GUC Berlin?
+    - How to apply to study in Berlin?
+    - Minimum number of students in Berlin?
+- intent: probation_tips_to_getout
+  examples: |
+    - How to get out of probation?
+    - Any tips for probation
+    - I need assistance getting out of probation
+- intent: summer_courses
+  examples: |
+    - Summer course admission
+    - What courses are available in summer?
+    - How to register for a summer course?
+- intent: summer_general
+  examples: |
+    - How many rounds are in summer?
+    - How summer semster works?
+    - How summer semester works?
+- intent: guc_regulations_attendance
+  examples: |
+    - How many absences can I take?
+    - What is the guc attendance policy?
+    - Is attendance mandatory?
+    - How many tutorials can I miss?
+- intent: study_guide_general
+  examples: |
+    - How to study for quizzes?
+    - Tips to study
+    - General study tips
+    - How to study?
+- intent: summer_attendance
+  examples: |
+    - How many absences can I have in summer?
+    - What is the attendance policy in summer?
+    - Do lectures have attendance in summer?
+    - Summer attendance policy
+- intent: finding_internships
+  examples: |
+    - Where to find internships?
+    - How to find internships?
+    - Where can I apply to internships?
+    - How to get internships?
+    - Whwre to get internships?
+- intent: study_guide_exams
+  examples: |
+    - Finals study guide
+    - Midterm study guide
+    - How to study for finals?
+    - How to study for exams?
+    - How to study for midterms?
+- intent: internship_submission
+  examples: |
+    - internship submission
+    - How to notify the university of an internship I have completed?
+    - What to do after my internship is finished?
+    - submit my internship
+    - What to do after completeing my internship?
+    - Where can I submit my internship ?
+- intent: internships_duration_required
+  examples: |
+    - What is the internships duration required for Management students?
+    - What is the internships duration required for Pharmacy students?
+    - What is the internships duration required for Law students?
+    - What is the internships duration required for Engineering students?
+    - How mush time do I need to do internships for?
+    - time for internships required
+    - For how long should the internship be?
+- intent: grades_schema
+  examples: |
+    - What are the grades to gpa conversions?
+    - What is the gpa equivilant for A-?
+    - What is the gpa equivilant for F?
+    - What is the gpa equivilant for A?
+    - What is the gpa equivilant for C?
+    - What is the gpa equivilant for C-?
+    - What is the grades schema in guc?
+    - What is the gpa equivilant for D?
+    - What is the gpa equivilant for C+?
+    - What is the gpa equivilant for D+?
+    - What is the gpa equivilant for A+?
+    - What is the gpa equivilant for B-?
+    - What is the gpa equivilant for B+?

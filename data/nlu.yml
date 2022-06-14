@@ -1,20 +1,81 @@
 version: "3.1"
 
 nlu:
-- intent: guc_regulations_clothing
+- intent: cv_preparation
   examples: |
-    - Is there a clothing policy?
-    - What clothes am I not allowed to wear ?
-    - Can I wear anything I want?
-    - What clothes should I wear?
+    - How to prepare my CV?
+    - I need assistance making my cv?
+    - What to add to my cv?
+    - What is a good format for a cv?
+
+- intent: side_pjojects_importance
+  examples: |
+    - Are side projects important?
+    - Do I need to do extra projects?
+    - What projects I can do on the side?
+
+- intent: plagirism_policy
+  examples: |
+    - What is plagirism?
+    - What is considered plagirism?
+    - What happens to me if I got caught doing plagirism?
+    - What is the guc plagirism policy?
 
 
-- intent: guc_regulations_general
+- intent: grades_schema
   examples: |
-    - What are the general guc regulations ?
-    - What is the guc policy?
-    - What are the guc policies?
-    - What are the rules I should follow?
+    - What is the gpa equivilant for A+?
+    - What is the gpa equivilant for A?
+    - What is the gpa equivilant for A-?
+    - What is the gpa equivilant for B+?
+    - What is the gpa equivilant for B?
+    - What is the gpa equivilant for B-?
+    - What is the gpa equivilant for C+?
+    - What is the gpa equivilant for C?
+    - What is the gpa equivilant for C-?
+    - What is the gpa equivilant for D+?
+    - What is the gpa equivilant for D?
+    - What is the gpa equivilant for F?
+    - What is the grades schema in guc?
+    - What are the grades to gpa conversions?
+
+
+- intent: finding_internships
+  examples: |
+    - How to find internships?
+    - How to get internships?
+    - Where to find internships?
+    - Whwre to get internships?
+    - Where can I apply to internships?
+    - How to find internship oppurtunities?
+
+- intent: internships_obligatory_or_not
+  examples: |
+    - Are internships obligatory?
+    - Do all students need to do internships?
+    - Do I have to do internships?
+    - Can I skip doing internships?
+
+- intent: internships_duration_required
+  examples: |
+    - For how long should the internship be?
+    - How mush time do I need to do internships for?
+    - What is the internships duration required for Engineering students?
+    - What is the internships duration required for Pharmacy students?
+    - What is the internships duration required for Management students?
+    - What is the internships duration required for Applied Arts students?
+    - What is the internships duration required for Law students?
+    - time for internships required
+
+- intent: internship_submission
+  examples: |
+    - How to notify the university of an internship I have completed?
+    - Where can I submit my internship ?
+    - internship submission
+    - submit my internship
+    - What to do after my internship is finished?
+    - What to do after completeing my internship?
+    - What to do after my internship is done?
 
 
 - intent: guc_regulations_attendance
@@ -41,12 +102,6 @@ nlu:
     - Finals study guide
     - How to study for exams?
     - Prepare for exam
-
-- intent: study_guide_textbooks
-  examples: |
-    - How to study from the textbook?
-    - Is textbook important to study from?
-    - Is it important to syudy using textbook?
 
 
 - intent: study_guide_general
